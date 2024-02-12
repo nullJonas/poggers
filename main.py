@@ -40,6 +40,11 @@ kernel = np.array([[1, 1, 1],
                    [1, -8, 1],
                    [1, 1, 1]])
 
+kernel2 = np.array([[-1, 1, 1],
+                   [1, -8, 1],
+                   [1, 1, 1]])
+
+
 # Apply convolution
 output_image = apply_convolution(input_image, kernel)
 
