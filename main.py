@@ -40,6 +40,8 @@ kernel = np.array([[1, 1, 1],
                    [1, -8, 1],
                    [1, 1, 1]])
 
+print("Eu sou meio poggers")
+
 # Apply convolution
 output_image = apply_convolution(input_image, kernel)
 
