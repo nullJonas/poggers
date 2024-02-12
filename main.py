@@ -52,3 +52,5 @@ output_image = apply_convolution(input_image, kernel)
 # Display original and convolved images
 input_image.show(title="Original Image")
 output_image.show(title="Convolved Image")
+
+# comentario
